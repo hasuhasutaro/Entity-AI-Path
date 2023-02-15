@@ -1,0 +1,17 @@
+name: EntityAIPlugin
+version: 1.0.0
+main: noahasu\entityAI\Main
+api: 5.0.0
+load: POSTWORLD
+author: noahasu
+depent:
+  - PvECorePlugin
+
+commands:
+  pos:
+    description: "座標を指定し、パス追跡エンティティを召喚します。"
+    permission: EntityAIPlugin.command.pos
+    usage: "/pos"
+permissions:
+  EntityAIPlugin.command.pos:
+    default: op
